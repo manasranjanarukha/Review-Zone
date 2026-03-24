@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Custom global styles */
+/* @media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  .heavy-anim {
+    animation: none !important;
+  }
+}
