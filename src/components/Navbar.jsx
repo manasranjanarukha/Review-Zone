@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NAV_LINKS } from "../data/navLinks";
-export default function NavBar({ scrolled }) {
+export default function Navbar({ scrolled }) {
   const LOGO_ORANGE = "/orange.webp";
   const [menuOpen, setMenuOpen] = useState(false);
   const scrollTo = (id) => {
