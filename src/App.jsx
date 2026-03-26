@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 // Data imports
 import { CLIENTS } from "./data/clients";
 
-import { TESTIMONIALS } from "./data/testimonials";
 import { METRICS } from "./data/metrics";
 import { STEPS } from "./data/steps";
 // UI imports
