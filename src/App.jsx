@@ -1,9 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 // Data imports
 import { CLIENTS } from "./data/clients";
-import { FAQS } from "./data/faq";
-
-import { PLANS } from "./data/plans";
 
 import { TESTIMONIALS } from "./data/testimonials";
 import { METRICS } from "./data/metrics";
@@ -13,7 +10,7 @@ import Reveal from "./ui/Reveal";
 
 import SectionHeading from "./ui/SectionHeading";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
@@ -60,7 +57,7 @@ export default function App() {
         {/* ══════════════════════════════════════════
             NAVBAR
         ══════════════════════════════════════════ */}
-        <NavBar scrolled={scrolled} />
+        <Navbar scrolled={scrolled} />
 
         <main id="main-content">
           {/* ══════════════════════════════════════════
