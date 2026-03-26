@@ -9,7 +9,7 @@ import Reveal from "./ui/Reveal";
 
 import SectionHeading from "./ui/SectionHeading";
 import "./App.css";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navigation";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
